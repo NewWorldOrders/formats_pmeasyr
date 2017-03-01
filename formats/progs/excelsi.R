@@ -165,7 +165,8 @@ bind_rows(
   imp('RUM', 'mco', 'rum', '14'),
   imp('RUM', 'mco', 'rum', '15'),
   imp('RUM', 'mco', 'rum', '16'),
-
+  imp('RUM', 'mco', 'rum', '17'),
+  
   # RUM
   imp('RUM ACTES', 'mco', 'rum_actes', '11'),
   imp('RUM ACTES', 'mco', 'rum_actes', '12'),
@@ -174,6 +175,7 @@ bind_rows(
   imp('RUM ACTES', 'mco', 'rum_actes', '15_116'),
   imp('RUM ACTES', 'mco', 'rum_actes', '15_117'),
   imp('RUM ACTES', 'mco', 'rum_actes', '16'),
+  imp('RUM ACTES', 'mco', 'rum_actes', '17'),
 
   # RUM ANO
   imp('RUM ANO', 'mco', 'rum_ano', '11'),
@@ -182,7 +184,8 @@ bind_rows(
   imp('RUM ANO', 'mco', 'rum_ano', '14'),
   imp('RUM ANO', 'mco', 'rum_ano', '15'),
   imp('RUM ANO', 'mco', 'rum_ano', '16'),
-
+  imp('RUM ANO', 'mco', 'rum_ano', '17'),
+  
   # RUM MED
   imp('RUM MED', 'mco', 'rum_med', '11'),
   imp('RUM MED', 'mco', 'rum_med', '12'),
@@ -190,7 +193,8 @@ bind_rows(
   imp('RUM MED', 'mco', 'rum_med', '14'),
   imp('RUM MED', 'mco', 'rum_med', '15'),
   imp('RUM MED', 'mco', 'rum_med', '16'),
-
+  imp('RUM MED', 'mco', 'rum_med', '17'),
+  
   # RUM DMI
   imp('RUM DMI', 'mco', 'rum_dmi', '11'),
   imp('RUM DMI', 'mco', 'rum_dmi', '12'),
@@ -198,7 +202,8 @@ bind_rows(
   imp('RUM DMI', 'mco', 'rum_dmi', '14'),
   imp('RUM DMI', 'mco', 'rum_dmi', '15'),
   imp('RUM DMI', 'mco', 'rum_dmi', '16'),
-
+  imp('RUM DMI', 'mco', 'rum_dmi', '17'),
+  
   # Fichcomp po
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '11'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '12'),
@@ -206,7 +211,8 @@ bind_rows(
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '14'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '15'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '16'),
-
+  imp('RUM FICHCOMP', 'mco', 'ffc_in', '17'),
+  
   # UM
   imp('UM', 'mco', 'um', '11'),
   imp('UM', 'mco', 'um', '12'),
@@ -214,7 +220,8 @@ bind_rows(
   imp('UM', 'mco', 'um', '14'),
   imp('UM', 'mco', 'um', '15'),
   imp('UM', 'mco', 'um', '16'),
-
+  imp('UM', 'mco', 'um', '17'),
+  
   # TRA
   imp('TRA MCO', 'mco', 'tra', 'xx'),
   imp('TRA HAD', 'had', 'tra', 'xx'),
