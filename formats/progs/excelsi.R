@@ -28,7 +28,8 @@ bind_rows(
   imp('RHA', 'ssr', 'rha', '14'),
   imp('RHA', 'ssr', 'rha', '15'),
   imp('RHA', 'ssr', 'rha', '16'),
-
+  imp('RHA', 'ssr', 'rha', '17'),
+  
   # RHA ANO
   imp('RHA ANO', 'ssr', 'rha_ano', '11'),
   imp('RHA ANO', 'ssr', 'rha_ano', '12'),
@@ -36,7 +37,8 @@ bind_rows(
   imp('RHA ANO', 'ssr', 'rha_ano', '14'),
   imp('RHA ANO', 'ssr', 'rha_ano', '15'),
   imp('RHA ANO', 'ssr', 'rha_ano', '16'),
-
+  imp('RHA ANO', 'ssr', 'rha_ano', '17'),
+  
   # RAPSS
   imp('RAPSS', 'had', 'rapss', '11'),
   imp('RAPSS', 'had', 'rapss', '12'),
