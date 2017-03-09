@@ -20,6 +20,7 @@ bind_rows(
   imp('SSRHA', 'ssr', 'ssrha', '14'),
   imp('SSRHA', 'ssr', 'ssrha', '15'),
   imp('SSRHA', 'ssr', 'ssrha', '16'),
+  imp('SSRHA', 'ssr', 'ssrha', '17'),
 
   # RHA
   imp('RHA', 'ssr', 'rha', '11'),
