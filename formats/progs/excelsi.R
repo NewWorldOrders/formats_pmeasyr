@@ -40,6 +40,23 @@ bind_rows(
   imp('RHA ANO', 'ssr', 'rha_ano', '16'),
   imp('RHA ANO', 'ssr', 'rha_ano', '17'),
   
+  # RHA MED
+  imp('RHA MED', 'ssr', 'rha_med', '11'),
+  imp('RHA MED', 'ssr', 'rha_med', '12'),
+  imp('RHA MED', 'ssr', 'rha_med', '13'),
+  imp('RHA MED', 'ssr', 'rha_med', '14'),
+  imp('RHA MED', 'ssr', 'rha_med', '15'),
+  imp('RHA MED', 'ssr', 'rha_med', '16'),
+  imp('RHA MED', 'ssr', 'rha_med', '17'),
+  
+  # imp('RHA UM', 'ssr', 'rha_um', '11'),
+  # imp('RHA UM', 'ssr', 'rha_um', '12'),
+  imp('RHA UM', 'ssr', 'rha_um', '13'),
+  imp('RHA UM', 'ssr', 'rha_um', '14'),
+  imp('RHA UM', 'ssr', 'rha_um', '15'),
+  imp('RHA UM', 'ssr', 'rha_um', '16'),
+  imp('RHA UM', 'ssr', 'rha_um', '17'),
+  
   # RAPSS
   imp('RAPSS', 'had', 'rapss', '11'),
   imp('RAPSS', 'had', 'rapss', '12'),
