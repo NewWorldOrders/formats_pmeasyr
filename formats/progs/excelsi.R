@@ -91,21 +91,24 @@ bind_rows(
   imp('RPSA', 'psy', 'rpsa', '14'),
   imp('RPSA', 'psy', 'rpsa', '15'),
   imp('RPSA', 'psy', 'rpsa', '16'),
-
+  imp('RPSA', 'psy', 'rpsa', '17'),
+  
   # RPSA ANO
   imp('RPSA ANO', 'psy', 'rpsa_ano', '12'),
   imp('RPSA ANO', 'psy', 'rpsa_ano', '13'),
   imp('RPSA ANO', 'psy', 'rpsa_ano', '14'),
   imp('RPSA ANO', 'psy', 'rpsa_ano', '15'),
   imp('RPSA ANO', 'psy', 'rpsa_ano', '16'),
-
+  imp('RPSA ANO', 'psy', 'rpsa_ano', '17'),
+  
   # R3A
   imp('R3A', 'psy', 'r3a', '12'),
   imp('R3A', 'psy', 'r3a', '13'),
   imp('R3A', 'psy', 'r3a', '14'),
   imp('R3A', 'psy', 'r3a', '15'),
   imp('R3A', 'psy', 'r3a', '16'),
-
+  imp('R3A', 'psy', 'r3a', '17'),
+  
   # RSA
   imp('RSA', 'mco', 'rsa', '11'),
   imp('RSA', 'mco', 'rsa', '12'),
@@ -255,7 +258,8 @@ bind_rows(
   imp('RAFAEL', 'rsf', 'rafael', '14'),
   imp('RAFAEL', 'rsf', 'rafael', '15'),
   imp('RAFAEL', 'rsf', 'rafael', '16'),
-
+  imp('RAFAEL', 'rsf', 'rafael', '17'),
+  
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '16'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '15'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '14'),
