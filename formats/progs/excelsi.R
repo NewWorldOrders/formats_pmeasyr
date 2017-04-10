@@ -260,6 +260,7 @@ bind_rows(
   imp('RAFAEL', 'rsf', 'rafael', '16'),
   imp('RAFAEL', 'rsf', 'rafael', '17'),
   
+  imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '17'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '16'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '15'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '14'),
@@ -271,7 +272,9 @@ bind_rows(
   imp('RAFAEL ANO', 'rsf', 'rafael_ano', '14'),
   imp('RAFAEL ANO', 'rsf', 'rafael_ano', '15'),
   imp('RAFAEL ANO', 'rsf', 'rafael_ano', '16'),
+  imp('RAFAEL ANO', 'rsf', 'rafael_ano', '17'),
   
+  imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '17'),
   imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '16'),
   imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '15'),
   imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '14')
