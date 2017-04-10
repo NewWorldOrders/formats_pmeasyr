@@ -1,4 +1,4 @@
-# formats_pmeasyr
+# formats pmeasyr
 
 Formats des fichiers in out pour pmeasyr
 
