@@ -249,8 +249,8 @@ bind_rows(
   imp('TRA MCO', 'mco', 'tra', 'xx'),
   imp('TRA HAD', 'had', 'tra', 'xx'),
   imp('TRA SSR', 'ssr', 'tra', 'xx'),
-  imp('TRA PSY_R3A', 'psy', 'tra_psy_r3a', 'xx'),
-  imp('TRA PSY_RPSA', 'psy', 'tra_psy_rpsa', 'xx'),
+  imp('TRA PSY_R3A', 'psy', 'psy_r3a', 'xx'),
+  imp('TRA PSY_RPSA', 'psy', 'psy_rpsa', 'xx'),
 
   # RAFAEL
   imp('RAFAEL', 'rsf', 'rafael', '12'),
