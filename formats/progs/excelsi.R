@@ -190,6 +190,16 @@ bind_rows(
   imp('RSA DIAP', 'mco', 'rsa_diap', '17'),
   imp('RSA DIAP', 'mco', 'rsa_diap', '18'),
 
+  # RSA PIE
+  imp('RSA PIE', 'mco', 'rsa_pie', '11'),
+  imp('RSA PIE', 'mco', 'rsa_pie', '12'),
+  imp('RSA PIE', 'mco', 'rsa_pie', '13'),
+  imp('RSA PIE', 'mco', 'rsa_pie', '14'),
+  imp('RSA PIE', 'mco', 'rsa_pie', '15'),
+  imp('RSA PIE', 'mco', 'rsa_pie', '16'),
+  imp('RSA PIE', 'mco', 'rsa_pie', '17'),
+  imp('RSA PIE', 'mco', 'rsa_pie', '18'),
+  
   # RSA PO
   imp('RSA PO', 'mco', 'rsa_po', '11'),
   imp('RSA PO', 'mco', 'rsa_po', '12'),
