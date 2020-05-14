@@ -353,6 +353,9 @@ bind_rows(
   imp('RAFAEL', 'rsf', 'rafael', '19'),
   imp('RAFAEL', 'rsf', 'rafael', '20'),
   
+  imp('RSF', 'rsf', 'rsf', '19'),
+  imp('RSF', 'rsf', 'rsf', '20'),
+  
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '20'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '19'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '18'),
