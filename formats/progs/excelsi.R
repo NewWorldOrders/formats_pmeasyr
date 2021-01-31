@@ -37,6 +37,42 @@ bind_rows(
   imp('RHA', 'ssr', 'rha', '19'),
   imp('RHA', 'ssr', 'rha', '20'),
   
+  # RHS
+  imp('RHS', 'ssr', 'rhs', '11'),
+  imp('RHS', 'ssr', 'rhs', '12'),
+  imp('RHS', 'ssr', 'rhs', '13'),
+  imp('RHS', 'ssr', 'rhs', '14'),
+  imp('RHS', 'ssr', 'rhs', '15'),
+  imp('RHS', 'ssr', 'rhs', '16'),
+  imp('RHS', 'ssr', 'rhs', '17'),
+  imp('RHS', 'ssr', 'rhs', '18'),
+  imp('RHS', 'ssr', 'rhs', '19'),
+  imp('RHS', 'ssr', 'rhs', '20'),
+  
+  # RPS
+  imp('RPS', 'psy', 'rps', '20'),
+  imp('RPS', 'psy', 'rps', '19'),
+  imp('RPS', 'psy', 'rps', '18'),
+  imp('RPS', 'psy', 'rps', '17'),
+  imp('RPS', 'psy', 'rps', '16'),
+  imp('RPS', 'psy', 'rps', '15'),
+  imp('RPS', 'psy', 'rps', '14'),
+  imp('RPS', 'psy', 'rps', '13'),
+  imp('RPS', 'psy', 'rps', '12'),
+  imp('RPS', 'psy', 'rps', '11'),
+  
+  # RAA
+  imp('RAA', 'psy', 'raa', '20'),
+  imp('RAA', 'psy', 'raa', '19'),
+  imp('RAA', 'psy', 'raa', '18'),
+  imp('RAA', 'psy', 'raa', '17'),
+  imp('RAA', 'psy', 'raa', '16'),
+  imp('RAA', 'psy', 'raa', '15'),
+  imp('RAA', 'psy', 'raa', '14'),
+  imp('RAA', 'psy', 'raa', '13'),
+  imp('RAA', 'psy', 'raa', '12'),
+  imp('RAA', 'psy', 'raa', '11'),
+  
   # RHA ANO
   imp('RHA ANO', 'ssr', 'rha_ano', '11'),
   imp('RHA ANO', 'ssr', 'rha_ano', '12'),
@@ -286,6 +322,42 @@ bind_rows(
   imp('RUM ANO', 'mco', 'rum_ano', '18'),
   imp('RUM ANO', 'mco', 'rum_ano', '19'),
   imp('RUM ANO', 'mco', 'rum_ano', '20'),
+  
+  # RPSS ANO
+  imp('RPSS ANO', 'had', 'rpss_ano', '20'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '19'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '18'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '17'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '16'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '15'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '14'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '13'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '12'),
+  imp('RPSS ANO', 'had', 'rpss_ano', '11'),
+  
+  # RHS ANO
+  imp('RHS ANO', 'ssr', 'rhs_ano', '20'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '19'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '18'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '17'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '16'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '15'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '14'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '13'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '12'),
+  imp('RHS ANO', 'ssr', 'rhs_ano', '11'),
+  
+  # RPS ANO
+  imp('RPS ANO', 'psy', 'rps_ano', '20'),
+  imp('RPS ANO', 'psy', 'rps_ano', '19'),
+  imp('RPS ANO', 'psy', 'rps_ano', '18'),
+  imp('RPS ANO', 'psy', 'rps_ano', '17'),
+  imp('RPS ANO', 'psy', 'rps_ano', '16'),
+  imp('RPS ANO', 'psy', 'rps_ano', '15'),
+  imp('RPS ANO', 'psy', 'rps_ano', '14'),
+  imp('RPS ANO', 'psy', 'rps_ano', '13'),
+  imp('RPS ANO', 'psy', 'rps_ano', '12'),
+  imp('RPS ANO', 'psy', 'rps_ano', '11'),
   
   # RUM MED
   imp('RUM MED', 'mco', 'rum_med', '11'),
