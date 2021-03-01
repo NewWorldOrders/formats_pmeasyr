@@ -24,6 +24,7 @@ bind_rows(
   imp('SSRHA', 'ssr', 'ssrha', '18'),
   imp('SSRHA', 'ssr', 'ssrha', '19'),
   imp('SSRHA', 'ssr', 'ssrha', '20'),
+  imp('SSRHA', 'ssr', 'ssrha', '21'),
   
   # RHA
   imp('RHA', 'ssr', 'rha', '11'),
@@ -36,6 +37,7 @@ bind_rows(
   imp('RHA', 'ssr', 'rha', '18'),
   imp('RHA', 'ssr', 'rha', '19'),
   imp('RHA', 'ssr', 'rha', '20'),
+  imp('RHA', 'ssr', 'rha', '21'),
   
   # RHS
   imp('RHS', 'ssr', 'rhs', '11'),
@@ -48,8 +50,10 @@ bind_rows(
   imp('RHS', 'ssr', 'rhs', '18'),
   imp('RHS', 'ssr', 'rhs', '19'),
   imp('RHS', 'ssr', 'rhs', '20'),
+  imp('RHS', 'ssr', 'rhs', '21'),
   
   # RPS
+  imp('RPS', 'psy', 'rps', '21'),
   imp('RPS', 'psy', 'rps', '20'),
   imp('RPS', 'psy', 'rps', '19'),
   imp('RPS', 'psy', 'rps', '18'),
@@ -62,6 +66,7 @@ bind_rows(
   imp('RPS', 'psy', 'rps', '11'),
   
   # RAA
+  imp('RAA', 'psy', 'raa', '21'),
   imp('RAA', 'psy', 'raa', '20'),
   imp('RAA', 'psy', 'raa', '19'),
   imp('RAA', 'psy', 'raa', '18'),
@@ -84,6 +89,7 @@ bind_rows(
   imp('RHA ANO', 'ssr', 'rha_ano', '18'),
   imp('RHA ANO', 'ssr', 'rha_ano', '19'),
   imp('RHA ANO', 'ssr', 'rha_ano', '20'),
+  imp('RHA ANO', 'ssr', 'rha_ano', '21'),
   
   # RHA MED
   imp('RHA MED', 'ssr', 'rha_med', '11'),
@@ -96,6 +102,7 @@ bind_rows(
   imp('RHA MED', 'ssr', 'rha_med', '18'),
   imp('RHA MED', 'ssr', 'rha_med', '19'),
   imp('RHA MED', 'ssr', 'rha_med', '20'),
+  imp('RHA MED', 'ssr', 'rha_med', '21'),
   
   # imp('RHA UM', 'ssr', 'rha_um', '11'),
   # imp('RHA UM', 'ssr', 'rha_um', '12'),
@@ -107,6 +114,7 @@ bind_rows(
   imp('RHA UM', 'ssr', 'rha_um', '18'),
   imp('RHA UM', 'ssr', 'rha_um', '19'),
   imp('RHA UM', 'ssr', 'rha_um', '20'),
+  imp('RHA UM', 'ssr', 'rha_um', '21'),
   
   # RAPSS
   imp('RAPSS', 'had', 'rapss', '11'),
@@ -119,7 +127,8 @@ bind_rows(
   imp('RAPSS', 'had', 'rapss', '18'),
   imp('RAPSS', 'had', 'rapss', '19'),
   imp('RAPSS', 'had', 'rapss', '20'),
-
+  imp('RAPSS', 'had', 'rapss', '21'),
+  
   # RAPSS ANO
   imp('RAPSS ANO', 'had', 'rapss_ano', '11'),
   imp('RAPSS ANO', 'had', 'rapss_ano', '12'),
@@ -131,7 +140,8 @@ bind_rows(
   imp('RAPSS ANO', 'had', 'rapss_ano', '18'),
   imp('RAPSS ANO', 'had', 'rapss_ano', '19'),
   imp('RAPSS ANO', 'had', 'rapss_ano', '20'),
-
+  imp('RAPSS ANO', 'had', 'rapss_ano', '21'),
+  
   # RAPSS MED
   imp('RAPSS MED', 'had', 'rapss_med', '11'),
   imp('RAPSS MED', 'had', 'rapss_med', '12'),
@@ -143,7 +153,7 @@ bind_rows(
   imp('RAPSS MED', 'had', 'rapss_med', '18'),
   imp('RAPSS MED', 'had', 'rapss_med', '19'),
   imp('RAPSS MED', 'had', 'rapss_med', '20'),
-
+  imp('RAPSS MED', 'had', 'rapss_med', '21'),
 
   # RPSA
   imp('RPSA', 'psy', 'rpsa', '12'),
@@ -155,6 +165,7 @@ bind_rows(
   imp('RPSA', 'psy', 'rpsa', '18'),
   imp('RPSA', 'psy', 'rpsa', '19'),
   imp('RPSA', 'psy', 'rpsa', '20'),
+  imp('RPSA', 'psy', 'rpsa', '21'),
   
   # RPSA ANO
   imp('RPSA ANO', 'psy', 'rpsa_ano', '12'),
@@ -166,6 +177,7 @@ bind_rows(
   imp('RPSA ANO', 'psy', 'rpsa_ano', '18'),
   imp('RPSA ANO', 'psy', 'rpsa_ano', '19'),
   imp('RPSA ANO', 'psy', 'rpsa_ano', '20'),
+  imp('RPSA ANO', 'psy', 'rpsa_ano', '21'),
   
   # R3A
   imp('R3A', 'psy', 'r3a', '12'),
@@ -177,6 +189,7 @@ bind_rows(
   imp('R3A', 'psy', 'r3a', '18'),
   imp('R3A', 'psy', 'r3a', '19'),
   imp('R3A', 'psy', 'r3a', '20'),
+  imp('R3A', 'psy', 'r3a', '21'),
   
   # RSA
   imp('RSA', 'mco', 'rsa', '11'),
@@ -189,6 +202,7 @@ bind_rows(
   imp('RSA', 'mco', 'rsa', '18'),
   imp('RSA', 'mco', 'rsa', '19'),
   imp('RSA', 'mco', 'rsa', '20'),
+  imp('RSA', 'mco', 'rsa', '21'),
 
   # RSA ACTES
   imp('RSA ACTES', 'mco', 'rsa_actes', '11'),
@@ -201,7 +215,8 @@ bind_rows(
   imp('RSA ACTES', 'mco', 'rsa_actes', '18'),
   imp('RSA ACTES', 'mco', 'rsa_actes', '19'),
   imp('RSA ACTES', 'mco', 'rsa_actes', '20'),
-
+  imp('RSA ACTES', 'mco', 'rsa_actes', '21'),
+  
   # RSA UM
    imp('RSA UM', 'mco', 'rsa_um', '11'),
    imp('RSA UM', 'mco', 'rsa_um', '12'),
@@ -213,7 +228,8 @@ bind_rows(
    imp('RSA UM', 'mco', 'rsa_um', '18'),
    imp('RSA UM', 'mco', 'rsa_um', '19'),
    imp('RSA UM', 'mco', 'rsa_um', '20'),
-
+   imp('RSA UM', 'mco', 'rsa_um', '21'),
+  
   # RSA ANO
   imp('RSA ANO', 'mco', 'rsa_ano', '11'),
   imp('RSA ANO', 'mco', 'rsa_ano', '12'),
@@ -225,7 +241,8 @@ bind_rows(
   imp('RSA ANO', 'mco', 'rsa_ano', '18'),
   imp('RSA ANO', 'mco', 'rsa_ano', '19'),
   imp('RSA ANO', 'mco', 'rsa_ano', '20'),
-
+  imp('RSA ANO', 'mco', 'rsa_ano', '21'),
+  
   # RSA MED
   imp('RSA MED', 'mco', 'rsa_med', '11'),
   imp('RSA MED', 'mco', 'rsa_med', '12'),
@@ -237,7 +254,8 @@ bind_rows(
   imp('RSA MED', 'mco', 'rsa_med', '18'),
   imp('RSA MED', 'mco', 'rsa_med', '19'),
   imp('RSA MED', 'mco', 'rsa_med', '20'),
-
+  imp('RSA MED', 'mco', 'rsa_med', '21'),
+  
   # RSA DMI
   imp('RSA DMI', 'mco', 'rsa_dmi', '11'),
   imp('RSA DMI', 'mco', 'rsa_dmi', '12'),
@@ -249,7 +267,8 @@ bind_rows(
   imp('RSA DMI', 'mco', 'rsa_dmi', '18'),
   imp('RSA DMI', 'mco', 'rsa_dmi', '19'),
   imp('RSA DMI', 'mco', 'rsa_dmi', '20'),
-
+  imp('RSA DMI', 'mco', 'rsa_dmi', '21'),
+  
   # RSA DIAP
   imp('RSA DIAP', 'mco', 'rsa_diap', '11'),
   imp('RSA DIAP', 'mco', 'rsa_diap', '12'),
@@ -261,7 +280,8 @@ bind_rows(
   imp('RSA DIAP', 'mco', 'rsa_diap', '18'),
   imp('RSA DIAP', 'mco', 'rsa_diap', '19'),
   imp('RSA DIAP', 'mco', 'rsa_diap', '20'),
-
+  imp('RSA DIAP', 'mco', 'rsa_diap', '21'),
+  
   # RSA PIE
   imp('RSA PIE', 'mco', 'rsa_pie', '11'),
   imp('RSA PIE', 'mco', 'rsa_pie', '12'),
@@ -273,6 +293,7 @@ bind_rows(
   imp('RSA PIE', 'mco', 'rsa_pie', '18'),
   imp('RSA PIE', 'mco', 'rsa_pie', '19'),
   imp('RSA PIE', 'mco', 'rsa_pie', '20'),
+  imp('RSA PIE', 'mco', 'rsa_pie', '21'),
   
   # RSA PO
   imp('RSA PO', 'mco', 'rsa_po', '11'),
@@ -285,7 +306,8 @@ bind_rows(
   imp('RSA PO', 'mco', 'rsa_po', '18'),
   imp('RSA PO', 'mco', 'rsa_po', '19'),
   imp('RSA PO', 'mco', 'rsa_po', '20'),
-
+  imp('RSA PO', 'mco', 'rsa_po', '21'),
+  
   # RUM
   imp('RUM', 'mco', 'rum', '11'),
   imp('RUM', 'mco', 'rum', '12'),
@@ -297,6 +319,7 @@ bind_rows(
   imp('RUM', 'mco', 'rum', '18'),
   imp('RUM', 'mco', 'rum', '19'),
   imp('RUM', 'mco', 'rum', '20'),
+  imp('RUM', 'mco', 'rum', '21'),
   
   # RUM
   imp('RUM ACTES', 'mco', 'rum_actes', '11'),
@@ -310,7 +333,8 @@ bind_rows(
   imp('RUM ACTES', 'mco', 'rum_actes', '18'),
   imp('RUM ACTES', 'mco', 'rum_actes', '19'),
   imp('RUM ACTES', 'mco', 'rum_actes', '20'),
-
+  imp('RUM ACTES', 'mco', 'rum_actes', '21'),
+  
   # RUM ANO
   imp('RUM ANO', 'mco', 'rum_ano', '11'),
   imp('RUM ANO', 'mco', 'rum_ano', '12'),
@@ -322,8 +346,10 @@ bind_rows(
   imp('RUM ANO', 'mco', 'rum_ano', '18'),
   imp('RUM ANO', 'mco', 'rum_ano', '19'),
   imp('RUM ANO', 'mco', 'rum_ano', '20'),
+  imp('RUM ANO', 'mco', 'rum_ano', '21'),
   
   # RPSS ANO
+  imp('RPSS ANO', 'had', 'rpss_ano', '21'),
   imp('RPSS ANO', 'had', 'rpss_ano', '20'),
   imp('RPSS ANO', 'had', 'rpss_ano', '19'),
   imp('RPSS ANO', 'had', 'rpss_ano', '18'),
@@ -336,6 +362,7 @@ bind_rows(
   imp('RPSS ANO', 'had', 'rpss_ano', '11'),
   
   # RHS ANO
+  imp('RHS ANO', 'ssr', 'rhs_ano', '21'),
   imp('RHS ANO', 'ssr', 'rhs_ano', '20'),
   imp('RHS ANO', 'ssr', 'rhs_ano', '19'),
   imp('RHS ANO', 'ssr', 'rhs_ano', '18'),
@@ -348,6 +375,7 @@ bind_rows(
   imp('RHS ANO', 'ssr', 'rhs_ano', '11'),
   
   # RPS ANO
+  imp('RPS ANO', 'psy', 'rps_ano', '21'),
   imp('RPS ANO', 'psy', 'rps_ano', '20'),
   imp('RPS ANO', 'psy', 'rps_ano', '19'),
   imp('RPS ANO', 'psy', 'rps_ano', '18'),
@@ -370,6 +398,7 @@ bind_rows(
   imp('RUM MED', 'mco', 'rum_med', '18'),
   imp('RUM MED', 'mco', 'rum_med', '19'),
   imp('RUM MED', 'mco', 'rum_med', '20'),
+  imp('RUM MED', 'mco', 'rum_med', '21'),
   
   # RUM DMI
   imp('RUM DMI', 'mco', 'rum_dmi', '11'),
@@ -382,6 +411,7 @@ bind_rows(
   imp('RUM DMI', 'mco', 'rum_dmi', '18'),
   imp('RUM DMI', 'mco', 'rum_dmi', '19'),
   imp('RUM DMI', 'mco', 'rum_dmi', '20'),
+  imp('RUM DMI', 'mco', 'rum_dmi', '21'),
   
   # Fichcomp po
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '11'),
@@ -394,6 +424,7 @@ bind_rows(
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '18'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '19'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '20'),
+  imp('RUM FICHCOMP', 'mco', 'ffc_in', '21'),
   
   # UM
   imp('UM', 'mco', 'um', '11'),
@@ -406,6 +437,7 @@ bind_rows(
   imp('UM', 'mco', 'um', '18'),
   imp('UM', 'mco', 'um', '19'),
   imp('UM', 'mco', 'um', '20'),
+  imp('UM', 'mco', 'um', '21'),
   
   # TRA
   imp('TRA MCO', 'mco', 'tra', 'xx'),
@@ -424,10 +456,13 @@ bind_rows(
   imp('RAFAEL', 'rsf', 'rafael', '18'),
   imp('RAFAEL', 'rsf', 'rafael', '19'),
   imp('RAFAEL', 'rsf', 'rafael', '20'),
+  imp('RAFAEL', 'rsf', 'rafael', '21'),
   
   imp('RSF', 'rsf', 'rsf', '19'),
   imp('RSF', 'rsf', 'rsf', '20'),
+  imp('RSF', 'rsf', 'rsf', '21'),
   
+  imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '21'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '20'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '19'),
   imp('RAFAEL LAMDA', 'rsf', 'rafael-maj', '18'),
@@ -447,7 +482,9 @@ bind_rows(
   imp('RAFAEL ANO', 'rsf', 'rafael_ano', '18'),
   imp('RAFAEL ANO', 'rsf', 'rafael_ano', '19'),
   imp('RAFAEL ANO', 'rsf', 'rafael_ano', '20'),
+  imp('RAFAEL ANO', 'rsf', 'rafael_ano', '21'),
   
+  imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '21'),
   imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '20'),
   imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '19'),
   imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '18'),
