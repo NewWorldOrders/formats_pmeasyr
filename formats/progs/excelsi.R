@@ -269,6 +269,13 @@ bind_rows(
   imp('RSA DMI', 'mco', 'rsa_dmi', '20'),
   imp('RSA DMI', 'mco', 'rsa_dmi', '21'),
   
+  # RSA IVG
+  imp('RSA IVG', 'mco', 'rsa_ivg', '17'),
+  imp('RSA IVG', 'mco', 'rsa_ivg', '18'),
+  imp('RSA IVG', 'mco', 'rsa_ivg', '19'),
+  imp('RSA IVG', 'mco', 'rsa_ivg', '20'),
+  imp('RSA IVG', 'mco', 'rsa_ivg', '21'),
+  
   # RSA DIAP
   imp('RSA DIAP', 'mco', 'rsa_diap', '11'),
   imp('RSA DIAP', 'mco', 'rsa_diap', '12'),
@@ -413,7 +420,14 @@ bind_rows(
   imp('RUM DMI', 'mco', 'rum_dmi', '20'),
   imp('RUM DMI', 'mco', 'rum_dmi', '21'),
   
-  # Fichcomp po
+  # RUM FICHCOMP IVG
+  imp('RUM IVG', 'mco', 'rum_ivg', '17'),
+  imp('RUM IVG', 'mco', 'rum_ivg', '18'),
+  imp('RUM IVG', 'mco', 'rum_ivg', '19'),
+  imp('RUM IVG', 'mco', 'rum_ivg', '20'),
+  imp('RUM IVG', 'mco', 'rum_ivg', '21'),
+
+    # Fichcomp po
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '11'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '12'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '13'),
@@ -494,6 +508,7 @@ bind_rows(
   imp('RAFAEL LAMDA ANO', 'rsf', 'rafael_ano-maj', '14')
 
 ) %>% select(libelle, longueur, position, fin, type, nom, champ, table, an, cla, Typer) -> formats
+
 rg <- readxl::read_excel(paste0('formats/regpexpr/rg_curseurs.xlsx'))
 class(rg$an) <- "character"
 #
