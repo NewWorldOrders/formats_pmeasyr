@@ -127,6 +127,7 @@ bind_rows(
   imp('RAPSS', 'had', 'rapss', '18'),
   imp('RAPSS', 'had', 'rapss', '19'),
   imp('RAPSS', 'had', 'rapss', '20'),
+  imp('RAPSS', 'had', 'rapss', '20_H33'),
   imp('RAPSS', 'had', 'rapss', '21'),
   
   # RAPSS ANO
@@ -140,6 +141,7 @@ bind_rows(
   imp('RAPSS ANO', 'had', 'rapss_ano', '18'),
   imp('RAPSS ANO', 'had', 'rapss_ano', '19'),
   imp('RAPSS ANO', 'had', 'rapss_ano', '20'),
+  imp('RAPSS ANO', 'had', 'rapss_ano', '20_H33'),
   imp('RAPSS ANO', 'had', 'rapss_ano', '21'),
   
   # RAPSS MED
