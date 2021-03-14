@@ -278,6 +278,9 @@ bind_rows(
   imp('RSA IVG', 'mco', 'rsa_ivg', '20'),
   imp('RSA IVG', 'mco', 'rsa_ivg', '21'),
   
+  # RSA TPT
+  imp('RSA TPT', 'mco', 'rsa_tpt', '21'),
+  
   # RSA DIAP
   imp('RSA DIAP', 'mco', 'rsa_diap', '11'),
   imp('RSA DIAP', 'mco', 'rsa_diap', '12'),
@@ -429,7 +432,9 @@ bind_rows(
   imp('RUM IVG', 'mco', 'rum_ivg', '20'),
   imp('RUM IVG', 'mco', 'rum_ivg', '21'),
 
-    # Fichcomp po
+  imp('RUM TPT', 'mco', 'rum_tpt', '21'),
+  
+  # Fichcomp po
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '11'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '12'),
   imp('RUM FICHCOMP', 'mco', 'ffc_in', '13'),
