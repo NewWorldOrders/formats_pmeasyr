@@ -32,9 +32,9 @@ liste_fichiers <- tibble(
 # f <- liste_fichiers[1,]$path_fichier
 
 lire_un_fichier <- function(f) {
-  
+  # print(f)
   u <- purrr::quietly(readxl::read_excel)(f)
-  
+    
   if (length(u$messages) > 0){
     print(f)
   }
@@ -47,7 +47,7 @@ lire_un_fichier <- function(f) {
 
 formats_pmeasyr <- liste_fichiers %>% 
   mutate(format = purrr::map(path_fichier, lire_un_fichier)) %>% 
-  tidyr::unnest(cols = format) %>% 
+  tidyr::unnest(cols = format, names_repair = "universal") %>% 
   select(libelle, longueur, position, fin, type, nom, champ, table, an, Typer, cla)
 
 rg <- readxl::read_excel(paste0('formats/regpexpr/rg_curseurs.xlsx'))
@@ -74,10 +74,10 @@ formats <- formats_pmeasyr
 
 # rm(imp)
 rm(rg)
-rm(u)
+# rm(u)
 rm(liste_fichiers)
 rm(formats_pmeasyr)
-rm(f)
+# rm(f)
 rm(lire_un_fichier)
 
 rm(.Random.seed)
